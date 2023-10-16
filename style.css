@@ -1,3 +1,4 @@
+
 body{
     display: block;
     max-width: 1400px;
@@ -32,4 +33,9 @@ body{
 
 .treatment-type .text{
     text-align: justify;
+}
+
+#team{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
