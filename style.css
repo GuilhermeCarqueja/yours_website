@@ -1,3 +1,11 @@
+body{
+    display: block;
+    max-width: 1400px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
 #header{
     background-color: #DEDAD5;
 }
@@ -10,4 +18,18 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 10px;
+}
+
+#Treatments{
+    /*display: block;*/
+    max-width: 900px;
+}
+
+.treatment-type > img{
+    max-width: 400px;
+    margin: 10px;
+}
+
+.treatment-type .text{
+    text-align: justify;
 }
