@@ -4,5 +4,10 @@
 
 #header img{
     height: 100px;
-    
+}
+
+.treatment-type{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 10px;
 }
