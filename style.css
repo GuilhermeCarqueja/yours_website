@@ -6,6 +6,15 @@ body{
     align-content: center;
 }
 
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    max-width: 1400px;
+}
+
 #header{
     background-color: #DEDAD5;
 }
