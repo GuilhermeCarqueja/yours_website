@@ -1,7 +1,6 @@
-
 body{
-    display: block;
-    max-width: 1400px;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     align-content: center;
